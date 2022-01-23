@@ -38,4 +38,14 @@ li {
 	background-position: right;
 	background-repeat:no-repeat;
 	background-color: #000080;
+	
+#column1, .article {
+	height: 10em;
+	margin-bottom: 1em;
+	background-color: #FFA500;
+	background-image: url("https://th.bing.com/th/id/R.a85a2cea66173ec8e8388b9ee77b9bee?rik=k9BQQ1SxzMsVFg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fBroken-Hourglass-PNG-Picture.png&ehk=7lNNTAh0B%2f%2fPdDPcXeJyzdG%2bV0iWHUSM7iOx6pefrbw%3d&risl=&pid=ImgRaw&r=0");
+	background-size:contain;
+	background-position: right;
+	background-repeat:no-repeat;
+	background-color: #000080;
 }
