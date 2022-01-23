@@ -26,7 +26,7 @@ li {
 	padding: 0.5em;}
 
 #nav, #footer {
-	background-color: #efefef;
+	background-color: #DE4444;
 	padding: 0.5em 0;}
 
 #feature, .article {
@@ -44,31 +44,25 @@ li {
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #FFA500;
-	background-image: url("https://th.bing.com/th/id/R.a85a2cea66173ec8e8388b9ee77b9bee?rik=k9BQQ1SxzMsVFg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fBroken-Hourglass-PNG-Picture.png&ehk=7lNNTAh0B%2f%2fPdDPcXeJyzdG%2bV0iWHUSM7iOx6pefrbw%3d&risl=&pid=ImgRaw&r=0");
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;
-	background-color: #FFA500;
 }
 
 #column2, .article {
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #33AAEE;
-	background-image: url("https://lh3.googleusercontent.com/T2FM6UNL4lpStl9Z_s2nxWKa6DmPIsuUV277452PVGO1iU7gmCHO6Igkm7uDyqWqTA=h900");
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;
-	background-color: #33AAEE;
 }
 
 #column3, .article {
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #EE6666;
-	background-image: url("https://orig00.deviantart.net/05da/f/2015/250/d/f/dfcdf1decd58e1884f6c0da83a08943e-d5h3fld.png");
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;
-	background-color: #EE6666;
 }
