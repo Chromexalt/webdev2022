@@ -38,7 +38,8 @@ li {
 	background-position: right;
 	background-repeat:no-repeat;
 	background-color: #000080;
-	
+}
+
 #column1, .article {
 	height: 10em;
 	margin-bottom: 1em;
