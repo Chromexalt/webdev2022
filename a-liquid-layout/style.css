@@ -32,10 +32,9 @@ li {
 #feature, .article {
 	height: 10em;
 	margin-bottom: 1em;
-	#feature {
-background-color: #8CC63E;
-background-image: url("https://webstockreview.net/images/clipart-clock-wheel-7.png");
-background-size:contain;
-background-position: right;
-background-repeat:no-repeat;}
-background-color: #efefef;}
+	background-color: #8CC63E;
+	background-image: url("https://webstockreview.net/images/clipart-clock-wheel-7.png");
+	background-size:contain;
+	background-position: right;
+	background-repeat:no-repeat;}
+	background-color: #efefef;}
