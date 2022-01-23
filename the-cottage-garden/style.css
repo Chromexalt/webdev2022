@@ -1,14 +1,8 @@
-p {
-   font-family: 'DancingScriptRegular';
-   font-weight: normal;
-   font-style: normal;
-}
 
-<style>
-.bodyDesign {
+body {
 font-family: Helvetica, Arial, sans-serif;
 color: #665544;
-padding: 0 15% 0 15%;
+padding: 0 15% 0 15%;    
 }
 
 h1 {
@@ -25,6 +19,5 @@ font-style: normal;
 font-size:200%;
 }
  
-</style>
-// now you can apply the class to body element
-<body class="bodyDesign">
+i, em, span.cm-em {
+color: darkgreen; }
