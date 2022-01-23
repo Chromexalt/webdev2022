@@ -1,6 +1,6 @@
 * {
 	font-family: 'Jazz LET, fantasy';
-	color: #FFD700;
+	color: #000000;
 	text-align: center;}
 
 body {
@@ -37,7 +37,6 @@ li {
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;
-	background-color: #4455DD;
 }
 
 #column1, .article {
