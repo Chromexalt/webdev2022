@@ -1,3 +1,4 @@
+
 h1 {
 text-align:center;
 color:Purple;
@@ -5,6 +6,11 @@ font-family:'Jazz LET, fantasy';
 
 }
 
+* {
+	font-family: 'Jazz LET, fantasy';
+	color: #000000;
+	text-align: center;}
+}
 
 body {
 	width: 90%;
