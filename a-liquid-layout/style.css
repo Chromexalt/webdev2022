@@ -2,12 +2,11 @@
 	font-family: 'Jazz LET, fantasy';
 	color: #000000;
 	text-align: center;}
+}
 
 body {
 	width: 90%;
 	margin: 0 auto;}
-
-background-image: url("https://resize.hswstatic.com/w_907/gif/leonidmeteors-1.jpg");
 
 #content {
 	overflow: auto;}
@@ -26,6 +25,8 @@ background-image: url("https://resize.hswstatic.com/w_907/gif/leonidmeteors-1.jp
 li {
 	display: inline;
 	padding: 0.5em;}
+  color: #ffffff; 
+}
 
 #nav, #footer {
 	background-color: #BBDE22;
