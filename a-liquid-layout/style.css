@@ -48,13 +48,13 @@ li {
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;
-	background-color: #FFDD45;
+	background-color: #FFA500;
 }
 
 #column2, .article {
 	height: 10em;
 	margin-bottom: 1em;
-	background-color: #FFA500;
+	background-color: #33AAEE;
 	background-image: url("https://lh3.googleusercontent.com/T2FM6UNL4lpStl9Z_s2nxWKa6DmPIsuUV277452PVGO1iU7gmCHO6Igkm7uDyqWqTA=h900");
 	background-size:contain;
 	background-position: right;
@@ -65,7 +65,7 @@ li {
 #column3, .article {
 	height: 10em;
 	margin-bottom: 1em;
-	background-color: #FFA500;
+	background-color: #EE6666;
 	background-image: url("https://orig00.deviantart.net/05da/f/2015/250/d/f/dfcdf1decd58e1884f6c0da83a08943e-d5h3fld.png");
 	background-size:contain;
 	background-position: right;
