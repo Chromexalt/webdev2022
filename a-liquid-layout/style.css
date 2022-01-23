@@ -37,7 +37,7 @@ li {
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;
-	background-color: #000080;
+	background-color: #4455DD;
 }
 
 #column1, .article {
@@ -48,7 +48,7 @@ li {
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;
-	background-color: #000080;
+	background-color: #FFDD45;
 }
 
 #column2, .article {
@@ -59,7 +59,7 @@ li {
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;
-	background-color: #000080;
+	background-color: #33AAEE;
 }
 
 #column3, .article {
@@ -70,5 +70,5 @@ li {
 	background-size:contain;
 	background-position: right;
 	background-repeat:no-repeat;
-	background-color: #000080;
+	background-color: #EE6666;
 }
