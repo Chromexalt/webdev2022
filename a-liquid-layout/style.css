@@ -48,7 +48,7 @@ li {
 	background-repeat:no-repeat;
 }
 
-#article column1 {
+#column1 {
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #FFA500;
@@ -57,7 +57,7 @@ li {
 	background-repeat:no-repeat;
 }
 
-#article column2 {
+#column2 {
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #33AAEE;
@@ -66,7 +66,7 @@ li {
 	background-repeat:no-repeat;
 }
 
-#article column3 {
+#column3 {
 	height: 10em;
 	margin-bottom: 1em;
 	background-color: #EE6666;
