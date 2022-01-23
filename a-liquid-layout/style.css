@@ -2,7 +2,6 @@
 	font-family: 'Jazz LET, fantasy';
 	color: #000000;
 	text-align: center;}
-}
 
 body {
 	width: 90%;
@@ -25,8 +24,7 @@ body {
 li {
 	display: inline;
 	padding: 0.5em;}
-  color: #ffffff; 
-}
+  	color: #ffffff; 
 
 #nav, #footer {
 	background-color: #BBDE22;
