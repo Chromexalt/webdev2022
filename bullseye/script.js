@@ -1,11 +1,13 @@
-var table = let person = prompt("What number would you like a multiplication table for?");
+var table = 
+  function myFunction() {
+  let person = prompt("What would you like to multiply?");
+  if (person != null) {
+    document.getElementById("demo").innerHTML = person; // Unit of table
+var operator = 'multiplication';                        // Type of calculation
+var i = 1;                                              // Set counter to 1
+var msg = '<h2>Multiplication Table</h2>';              // Message
 
-if (person != null);             // Unit of table
-var operator = 'addition'; // Type of calculation
-var i = 1;                 // Set counter to 1
-var msg = '<h2>Multiplication Table</h2>';
-
-if (operator === 'addition') {
+if (operator === 'multiplication') {
   // Do multiplication
   while (i < 11) {
     msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
