@@ -15,7 +15,7 @@ function GetValueFromUser(valueType) {
   {
 "Enter table";
   }
-  return prompt("A moment please);
+  return prompt("A moment please");
 }
 
 function GetTableContent(operator, table) {
