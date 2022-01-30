@@ -5,17 +5,18 @@ table = GetValueFromUser("table")
 
 // Write the message into the page
 var el = document.getElementById('blackboard');
-el.innerHTML = GetTableContent(table);
+el.innerHTML = GetTableContent(operator, table);
 
 function GetValueFromUser(valueType) {
+  var greetingMessage = 'Hello. How are you?';
   if (valueType == "operator") {
-"Enter addition or multiplication";
+    greetingMessage += "Enter addition or multiplication";
   }
   else
   {
-"Enter table";
+    greetingMessage += "Enter table";
   }
-  return prompt("A moment please");
+  return prompt(greetingMessage);
 }
 
 function GetTableContent(operator, table) {
