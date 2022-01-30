@@ -8,28 +8,28 @@ var el = document.getElementById('blackboard');
 el.innerHTML = GetTableContent(operator, table);
 
 function GetValueFromUser(valueType) {
-  var greetingMessage = 'Hello. How are you?';
+  var websiteQuery = 'Multiplication Table says: ';
   if (valueType == "operator") {
-    greetingMessage += "Enter addition or multiplication";
+    websiteQuery += "website operational, hit Enter ";
   }
   else
   {
-    greetingMessage += "Enter table";
+    websiteQuery += "Enter a number from 0-10 to generate table";
   }
-  return prompt(greetingMessage);
+  return prompt(websiteQuery);
 }
 
 function GetTableContent(operator, table) {
-  var i = 1;                 // Set counter to 1
-  var msg = '';              // Message  
-  if (operator === 'addition') {
-    // Do addition
+  var i = 1;                
+  var msg = '';              
+  if (operator === 'number') {
+
     while (i < 11) {
-      msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
+      msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
       i++;
     }
   } else {
-    // Do multiplication
+
     while (i < 11) {
       msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
       i++;
