@@ -14,22 +14,15 @@ function GetValueFromUser(valueType) {
   }
   else
   {
-    greetingMessage += "Enter table";
+    greetingMessage += "Enter a table you would like from 0-10.";
   }
   return prompt(greetingMessage);
 }
 
-function GetTableContent(operator, table) {
+function GetTableContent(table) {
   var i = 1;                 // Set counter to 1
   var msg = '';              // Message  
-  if (operator === 'addition') {
-    // Do addition
-    while (i < 11) {
-      msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
-      i++;
-    }
-  } else {
-    // Do multiplication
+// Do multiplication
     while (i < 11) {
       msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
       i++;
