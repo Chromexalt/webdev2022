@@ -1,7 +1,9 @@
-var table = 5;             // Unit of table
+var table = let person = prompt("What number would you like a multiplication table for?");
+
+if (person != null);             // Unit of table
 var operator = 'addition'; // Type of calculation
 var i = 1;                 // Set counter to 1
-var msg = '';              // Message
+var msg = '<h2>Multiplication Table</h2>';
 
 if (operator === 'addition') {
   // Do multiplication
