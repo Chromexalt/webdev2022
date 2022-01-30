@@ -1,3 +1,4 @@
+prompt("What would you like to multiply?")
 var table = 
   function myFunction() {
   let person = prompt("What would you like to multiply?");
@@ -6,7 +7,7 @@ var table =
 var operator = 'multiplication';                        // Type of calculation
 var i = 1;                                              // Set counter to 1
 var msg = '<h2>Multiplication Table</h2>';              // Message
-
+  }
 if (operator === 'multiplication') {
   // Do multiplication
   while (i < 11) {
