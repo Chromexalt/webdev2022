@@ -9,13 +9,13 @@ el.innerHTML = GetTableContent(table);
 
 function GetValueFromUser(valueType) {
   if (valueType == "operator") {
-    greetingMessage += "Enter addition or multiplication";
+"Enter addition or multiplication";
   }
   else
   {
-    greetingMessage += "Enter table";
+"Enter table";
   }
-  return prompt(greetingMessage);
+  return prompt("A moment please);
 }
 
 function GetTableContent(operator, table) {
