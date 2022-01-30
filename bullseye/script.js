@@ -8,27 +8,22 @@ var el = document.getElementById('blackboard');
 el.innerHTML = GetTableContent(operator, table);
 
 function GetValueFromUser(valueType) {
-  var greetingMessage = 'Hello. How are you?';
+  var greetingMessage = 'Greetings Old Sport ';
   if (valueType == "operator") {
-    greetingMessage += "Enter addition or multiplication";
-  }
-  else
-  {
-    greetingMessage += "Enter table";
+    greetingMessage += "Enter the number you would want a multiplication table for:";
   }
   return prompt(greetingMessage);
 }
 
 function GetTableContent(operator, table) {
   var i = 1;                 // Set counter to 1
-  var msg = '<h2> Hultiplication Table</h>';              // Message  
-  if (operator === 'addition') {
+  var msg = '<h2>Multiplication Table</h>';              // Message  
+  //if (operator === 'addition') {
     // Do addition
-    while (i < 11) {
-      msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
-      i++;
-    }
-  } else {
+    //while (i < 11) {
+      //msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
+      //i++;
+    //}
     // Do multiplication
     while (i < 11) {
       msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
