@@ -11,12 +11,10 @@ font-family:'Jazz LET, fantasy';
 	text-align: center;}
 }
 
-<style>
-body	{
-  	background-image: url('https://i.pinimg.com/originals/67/05/08/6705086df60e7d987767b8fd10a2dfa2.jpg');
-	background-color: #cccccc;
-	}
-</style>
+body {
+ background-image: url("https://i.pinimg.com/originals/67/05/08/6705086df60e7d987767b8fd10a2dfa2.jpg");
+ background-color: #cccccc;
+}
 
 #content {
 	overflow: auto;}
