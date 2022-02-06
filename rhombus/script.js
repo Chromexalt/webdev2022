@@ -47,7 +47,7 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
 
     function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
         var rLine ="";
-        for (i=pHeight;i <= 0;i--){
+        for (i=pHeight;i > 0;i--){
         rLine +="<p>";
 
         //Fill in the left side of every row with spaces or blanks
