@@ -17,7 +17,7 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
 
         //Fill in the left side of every row with spaces or blanks
             for(x=1; x<pHeight-1; x++)
-                rLine +="-";
+                rLine +=" ";
         //Create each line on the Rhombus
         for(j=x;j<=pHeight;j++){
         
