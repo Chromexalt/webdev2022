@@ -124,7 +124,3 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
     
     document.getElementById("downRight").innerHTML = rLine;
     }
-
-    
-    document.getElementById("downRight").innerHTML = rLine;
-    }
