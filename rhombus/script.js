@@ -57,7 +57,7 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
         }
 
         //Create each line on the Rhombus
-        for(j=0;j<i;j++){
+        for(j=x;j>i;j++){
         //Is the position even or odd so we change the color
         if (j%2)
         //even
