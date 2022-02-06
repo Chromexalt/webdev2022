@@ -11,7 +11,6 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
     }
 
 
-
 //*******************************UP LEFT*******************************
 
     function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
