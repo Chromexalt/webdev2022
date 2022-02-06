@@ -59,7 +59,7 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
             }
            
             //Create each line on the Rhombus
-            for(j=0;j<i;j--){
+            for(j=x;j<i;j--){
             rLine +="<span class= 'space'>" + pSymbol +"</span>";
             }
             //Is the position even or odd so we change the color
