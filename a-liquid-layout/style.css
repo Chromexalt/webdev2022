@@ -1,76 +1,54 @@
-h1 {
-text-align:center;
-color:Purple;
-font-family:'Jazz LET, fantasy';
-
-}
-
-* {
-	font-family: 'Jazz LET, fantasy';
-	color: #000000;
-	text-align: center;}
-}
-
 body {
- background-image: url("https://i.pinimg.com/originals/67/05/08/6705086df60e7d987767b8fd10a2dfa2.jpg");
- background-color: #cccccc;
+    background-image:url(https://assets.gamepur.com/wp-content/uploads/2021/08/05132359/IMG_5558.jpg);
+    width: 90%;
+    margin: 0 auto;
+text-align: center;}
+
+h1 {
+    font-family: 'AvaraBold';
+    font-weight: normal;
+    font-style: normal;
+    color: #642728;
 }
-
 #content {
-	overflow: auto;}
-
+    overflow: auto;}
 #nav, #feature, #footer {
-	margin: 1%;}
-
+    margin: 1%;}
 .column1, .column2, .column3 {
-	width: 31.3%;
-	float: left;
-	margin: 1%;}
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
 
+.column1{
+    background-color: #939289;
+}
+.column2{
+    background-color: #642728;
+}
 .column3 {
-	margin-right: 0%;}
+    margin-right: 0%;
+background-color: #6c6b75;}
 
 li {
-	display: inline;
-	padding: 0.5em;}
+    display: inline;
+    padding: 0.5em;}
 
 #nav, #footer {
-	background-color: #3322a1;
-	padding: 0.5em 0;}
+    padding: 0.5em 0;}
 
 #feature, .article {
-	height: 10em;
-	margin-bottom: 1em;
-	background-color: #8CC63E;
-	background-image: url("https://webstockreview.net/images/clipart-clock-wheel-7.png");
-	background-size:contain;
-	background-position: right;
-	background-repeat:no-repeat;
+    height: 10em;
+    margin-bottom: 1em;
+    }
+
+#feature {
+    background-image: url(https://mfiles.alphacoders.com/804/804456.jpg);
 }
 
-#column1 {
-	height: 10em;
-	margin-bottom: 1em;
-	background-color: #FFA500;
-	background-size:contain;
-	background-position: right;
-	background-repeat:no-repeat;
+#nav {
+    background-color: #beb48e;
 }
 
-#column2 {
-	height: 10em;
-	margin-bottom: 1em;
-	background-color: #33AAEE;
-	background-size:contain;
-	background-position: right;
-	background-repeat:no-repeat;
-}
-
-#column3 {
-	height: 10em;
-	margin-bottom: 1em;
-	background-color: #EE6666;
-	background-size:contain;
-	background-position: right;
-	background-repeat:no-repeat;
+#footer {
+    background-color: #beb48e
 }
