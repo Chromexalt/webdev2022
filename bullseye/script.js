@@ -8,11 +8,8 @@ var el = document.getElementById('blackboard');
 el.innerHTML = GetTableContent(operator, table);
 
 function GetValueFromUser(valueType) {
-  var websiteQuery = 'Multiplication Table says: ';
+  var operator = window.prompt("Enter a number from 1-10: ");
   if (valueType == "operator") {
-    
-  return prompt(websiteQuery);
-}
 
 function GetTableContent(operator, table) {
   var i = 1;                
