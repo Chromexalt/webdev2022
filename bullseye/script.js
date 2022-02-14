@@ -12,8 +12,8 @@ function GetValueFromUser(valueType) {
   if (valueType == "operator") {
     websiteQuery += "Enter a number from 0-10 to generate table";
   }
-  return prompt(websiteQuery);
-}
+  return GetTableContent;
+  }
 
 function GetTableContent(operator, table) {
   var i = 1;                
@@ -22,9 +22,9 @@ function GetTableContent(operator, table) {
 
     while (i < 11) {
       msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
-      i++;
-    }
-  } else {
+      i++; }
+  } 
+    else {
 
     while (i < 11) {
       msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
