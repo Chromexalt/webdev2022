@@ -8,13 +8,13 @@ var el = document.getElementById('blackboard');
 el.innerHTML = GetTableContent(operator, table);
 
 function GetValueFromUser(valueType) {
-  var websiteQuery += "Enter a number from 0-10 to generate table";
-  valueType == "operator") 
-  }
+  var websiteQuery = "Enter a number from 0-10 to generate table";
+  valueType == ("operator") 
+  
 
   }
-  return prompt(websiteQuery);
-  }
+  prompt(websiteQuery);
+  
 
 function GetTableContent(operator, table) {
   var i = 1;                
