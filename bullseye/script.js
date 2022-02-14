@@ -10,7 +10,6 @@ el.innerHTML = GetTableContent(operator, table);
 function GetValueFromUser(valueType) {
   var websiteQuery = 'Multiplication Table says: ';
   if (valueType == "operator") {
-    websiteQuery += "website operational, hit Enter ";
   }
   else
   {
