@@ -9,11 +9,13 @@ el.innerHTML = GetTableContent(operator, table);
 
 function GetValueFromUser(valueType) {
   var websiteQuery = 'Multiplication Table says: ';
-  (valueType == "operator") {
-    
- websiteQuery += "Enter a number from 0-10 to generate table";
-    
-}
+  if (valueType == "operator") {
+    websiteQuery += "website operational, hit Enter ";
+  }
+  else
+  {
+    websiteQuery += "Enter a number from 0-10 to generate table";
+  }
   return prompt(websiteQuery);
 }
 
