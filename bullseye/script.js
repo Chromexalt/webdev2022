@@ -16,9 +16,6 @@ function GetValueFromUser(valueType) {
   {
     return prompt(websiteQuery);
   }
-  websiteQuery += "Enter a number from 0-10 to generate table";
-  }
-  }
 
 function GetTableContent(operator, table) {
   var i = 1;                
