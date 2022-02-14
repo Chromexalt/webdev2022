@@ -1,28 +1,18 @@
-var table = 3; 
+var table = userInput; 
 
 operator = GetValueFromUser("operator");
 table = GetValueFromUser("table")
 
 
 var el = document.getElementById('blackboard');
-el.innerHTML = GetTableContent(operator, table);
+el.innerHTML = GetTableContent(userInput);
 
-function GetValueFromUser(valueType) {
-  var websiteQuery = 'Multiplication Table says: ';
-  if (valueType == "operator") {
-    websiteQuery += "website operational, hit Enter ";
-  }
-  else
-  {
-    websiteQuery += "Enter a number from 0-10 to generate table";
-  }
-  return prompt(websiteQuery);
-}
+var userInput = window.prompt("Enter a number from 1 - 10: ");
 
 function GetTableContent(operator, table) {
   var i = 1;                
   var msg = '';              
-  if (operator === 'number') {
+  if (userInput === 'number') {
 
     while (i < 11) {
       msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
