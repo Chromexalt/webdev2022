@@ -1,12 +1,12 @@
 body {
-    background-image:url(https://assets.gamepur.com/wp-content/uploads/2021/08/05132359/IMG_5558.jpg);
+    background-color: #0c0f1d;
     width: 90%;
     margin: 0 auto;
 text-align: center;}
 
 h1 {
     font-family: 'AvaraBold';
-    font-weight: normal;
-    font-style: normal;
-    color: #642728;
+    font-weight: bold;
+    font-style: bold;
+    color: #000000;
 }
