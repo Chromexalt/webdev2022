@@ -1,70 +1,431 @@
-body {
-    background-image:url("https://images.alphacoders.com/103/1032035.png");
-    }
+@font-face {
+    font-family: 'IosevkaBoldExtended';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/4b2d62a5e1aec4b5560649896503fbd4/IosevkaBoldExtended.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
 
-    #title {
-    position:fixed;
-    top:0px;
-    left:0px;
-    padding:10px;
-    margin-top:4px;
-    margin-bottom: 75px;
-    width:100%;
-    background-color:#8d9274;
-    text-align:center;
-    z-index:10;
-    font-family: 'NotoSerifItalic';
+@font-face {
+    font-family: 'IosevkaBoldExtendedItalic';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/aa7383eebc95a125f70ae1cb1bbb7621/IosevkaBoldExtendedItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaBoldExtendedOblique';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/35e8beb29849ea1a53e9d513f8a6b0af/IosevkaBoldExtendedOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaExtended';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/2ca63a4c2cd0ded3366794c3ef6c01b2/IosevkaExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'IosevkaExtendedItalic';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/5f6774153870b1df1ddb3342438202fa/IosevkaExtendedItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
-    font-size:36px;
-    }
-    
-    img {
-    margin-top:10px;
-    width: 40px;
-    height: 50px;
-    }
-    
-    #container {
-    padding-top: 100px;
-    width: 700px;
-    height: 600px;
-    margin: auto;
-    }
-    
-    .row{
-    position:relative;
-    width: 700px;
-    height: 12.5%;
-    margin-left:10%;
-    margin-right:10%;
-    }
-    
-    .white{
-    border: 1px solid #4C3A2B;
-    width: 10%;
-    height: 73px;
-    background-color: #DFD5C5;
-    float:left;
-    }
-    
-    .black{
-    border: 1px solid #4C3A2B;
-    width: 10%;
-    height: 73px;
-    background-color: #5E4E42;
-    float:left;
-    }
-    
-    #clear{
-    clear:both;
-    }
-    
-    #footer {
-    text-align:center;
-    background-color: #4C3A2B;
-    border:solid 1px;
-    padding: 10px;
-    margin-top:10px;
-    margin-bottom:10px;
-    }
+      }
+
+@font-face {
+    font-family: 'IosevkaExtendedOblique';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/412b1b55c3b4515678e923c88721be68/IosevkaExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaExtraboldExtended';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/7f6c0f5bbec59bb90d9e75219dda028e/IosevkaExtraboldExtended.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'IosevkaExtraboldExtendedItalic';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/8deb4f540b4734704a98dd5c6dd6fc44/IosevkaExtraboldExtendedItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaExtraboldExtendedOblique';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/d98b94ce7de479f2e22ed9a3480b6724/IosevkaExtraboldExtendedOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaExtralightExtended';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/80538b5e92daa5930656f5bc453dfb7e/IosevkaExtralightExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'IosevkaExtralightExtendedItalic';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/ed5103e3ea3ea8a9d3c8d83d844ab170/IosevkaExtralightExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaExtralightExtendedOblique';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/7fb050c28d4a0598250b83569f8b8d46/IosevkaExtralightExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaHeavyExtended';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/fe871bb2bff62d8056b5fd437c326ee8/IosevkaHeavyExtended.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'IosevkaHeavyExtendedItalic';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/4ee7d32b5d6a01b15f0aa9d95ff4d9de/IosevkaHeavyExtendedItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaHeavyExtendedOblique';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/1ec4059884225853baf7fc145b46de02/IosevkaHeavyExtendedOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaLightExtended';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/dafca85b04ae5f19ea989efee4c7692d/IosevkaLightExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'IosevkaLightExtendedItalic';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/9f7dff7e6313c2dcc92426902c2c5d31/IosevkaLightExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaLightExtendedOblique';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/7832d490cb20dbd2c645831314cd63e1/IosevkaLightExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaMediumExtended';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/abfdc616a6c8a9c7ca18d8e1d15c4edc/IosevkaMediumExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'IosevkaMediumExtendedItalic';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/77e9714be7ddde7b50fc3742212b6eae/IosevkaMediumExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaMediumExtendedOblique';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/7d40c3af6cda7d75ed0059a4bcc80cab/IosevkaMediumExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaSemiboldExtended';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/db075098c79a88f4c9b49b9589e2ff41/IosevkaSemiboldExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'IosevkaSemiboldExtendedItalic';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/443678fd505a33671cb6f568af77f26a/IosevkaSemiboldExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaSemiboldExtendedOblique';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/04646c0d0ca02dffcc810882082b033c/IosevkaSemiboldExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaThinExtended';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/c3f6c67ecc9b92248055ab5c8a1b2015/IosevkaThinExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'IosevkaThinExtendedItalic';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/498421d8a6df6bdd6ad6fab6de935df1/IosevkaThinExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'IosevkaThinExtendedOblique';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/aa9d20f27e77ef9f956fe9b559062abb/IosevkaThinExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+ /* The following rules are deprecated. */ 
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/4b2d62a5e1aec4b5560649896503fbd4/IosevkaBoldExtended.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/aa7383eebc95a125f70ae1cb1bbb7621/IosevkaBoldExtendedItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/35e8beb29849ea1a53e9d513f8a6b0af/IosevkaBoldExtendedOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/2ca63a4c2cd0ded3366794c3ef6c01b2/IosevkaExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/5f6774153870b1df1ddb3342438202fa/IosevkaExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/412b1b55c3b4515678e923c88721be68/IosevkaExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/7f6c0f5bbec59bb90d9e75219dda028e/IosevkaExtraboldExtended.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/8deb4f540b4734704a98dd5c6dd6fc44/IosevkaExtraboldExtendedItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/d98b94ce7de479f2e22ed9a3480b6724/IosevkaExtraboldExtendedOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/80538b5e92daa5930656f5bc453dfb7e/IosevkaExtralightExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/ed5103e3ea3ea8a9d3c8d83d844ab170/IosevkaExtralightExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/7fb050c28d4a0598250b83569f8b8d46/IosevkaExtralightExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/fe871bb2bff62d8056b5fd437c326ee8/IosevkaHeavyExtended.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/4ee7d32b5d6a01b15f0aa9d95ff4d9de/IosevkaHeavyExtendedItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/1ec4059884225853baf7fc145b46de02/IosevkaHeavyExtendedOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/dafca85b04ae5f19ea989efee4c7692d/IosevkaLightExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/9f7dff7e6313c2dcc92426902c2c5d31/IosevkaLightExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/7832d490cb20dbd2c645831314cd63e1/IosevkaLightExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/abfdc616a6c8a9c7ca18d8e1d15c4edc/IosevkaMediumExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/77e9714be7ddde7b50fc3742212b6eae/IosevkaMediumExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/7d40c3af6cda7d75ed0059a4bcc80cab/IosevkaMediumExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/db075098c79a88f4c9b49b9589e2ff41/IosevkaSemiboldExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/443678fd505a33671cb6f568af77f26a/IosevkaSemiboldExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/04646c0d0ca02dffcc810882082b033c/IosevkaSemiboldExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/c3f6c67ecc9b92248055ab5c8a1b2015/IosevkaThinExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/498421d8a6df6bdd6ad6fab6de935df1/IosevkaThinExtendedItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Iosevka';
+        src: url('/assets/fonts/iosevka-extended/23f21b3b69cf0669025239506e0aed76/aa9d20f27e77ef9f956fe9b559062abb/IosevkaThinExtendedOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
