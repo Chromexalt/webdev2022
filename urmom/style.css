@@ -248,3 +248,9 @@
     display: none;
   }
 }
+body {
+  background-image: url('https://images.hdqwalls.com/wallpapers/minimal-mountains-landscape-4k-az.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
