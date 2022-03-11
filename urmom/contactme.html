@@ -12,16 +12,16 @@
    </head>
 <body>
   <div class="sidebar">
-    
+    <ul>
     
       <!-- Home Page>-->
-      <li>
+       <li>
         <a href="https://chromexalt.github.io/webdev2022/urmom/">
           <i class='bx bx-grid-alt'></i>
           <span class="links_name">Home</span>
         </a>
          <span class="tooltip">Home</span>
-      </li>
+       </li>
     
     
       <!-- About Page>-->
@@ -82,11 +82,27 @@
        </a>
        <span class="tooltip">Creative</span>
      </li>
-    
-    
+    </ul>
   </div>
+  
   <section class="home-section">
-      <div class="text">Contact Me</div>
+    <div class="text">Contact Me</div>
+    
+    <div class="container">
+  <form action="#">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div> 
+    
   </section>
 
 </body>
