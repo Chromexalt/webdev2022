@@ -1,5 +1,5 @@
 body {
-    background-image:url("https://images.unsplash.com/photo-1545052585-dc97ce0b8abd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+    background-image:url("https://cdna.artstation.com/p/assets/images/images/029/548/598/large/mesba-bhuiya-fe7elibe-final.jpg?1597898682");
     }
 
     #title {
@@ -10,10 +10,10 @@ body {
     margin-top:4px;
     margin-bottom: 75px;
     width:100%;
-    background-color:#8d9274;
+    background-color:#4551d1;
     text-align:center;
     z-index:10;
-    font-family: 'IosevkaLightExtendedItalic';
+    font-family: 'AvaraBold';
     font-weight: normal;
     font-style: italic;
     font-size:36px;
@@ -41,10 +41,10 @@ body {
     }
     
     .white{
-    border: 1px solid #4C3A2B;
+    border: 1px solid #211d14;
     width: 10%;
     height: 73px;
-    background-color: #DFD5C5;
+    background-color: #ebe8e4;
     float:left;
     }
     
@@ -52,7 +52,7 @@ body {
     border: 1px solid #4C3A2B;
     width: 10%;
     height: 73px;
-    background-color: #5E4E42;
+    background-color: #211d14;
     float:left;
     }
     
@@ -64,7 +64,7 @@ body {
     
     #footer {
     text-align:center;
-    background-color: #4C3A2B;
+    background-color: #bf5d02;
     border:solid 1px;
     padding: 10px;
     margin-top:10px;
