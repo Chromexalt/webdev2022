@@ -345,11 +345,9 @@
 }
 .bx-flip-horizontal{
 	transform:scaleX(-1);
-	-ms-filter:'progid:DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1)'
 }
 .bx-flip-vertical{
 	transform:scaleY(-1);
-	-ms-filter:'progid:DXImageTransform.Microsoft.BasicImage(rotation=2,mirror=1)'
 }
 .bx-border{
 	padding:.25em;
