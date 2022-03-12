@@ -6,6 +6,7 @@
   font-family: "Poppins" , sans-serif;
 }
 .sidebar{
+  position: fixed;
   left: 0;
   top: 0;
   height: 100%;
@@ -14,7 +15,6 @@
   padding: 6px 14px;
   z-index: 99;
   transition: all 0.5s ease;
-  float: left;
 }
 .sidebar.open{
   width: 250px;
@@ -24,12 +24,10 @@
   display: flex;
   align-items: center;
   position: relative;
-  float: left;
 }
 .sidebar .logo-details .icon{
   opacity: 0;
   transition: all 0.5s ease;
-  float: left;
 }
 .sidebar .logo-details .logo_name{
   color: #fff;
@@ -37,7 +35,6 @@
   font-weight: 600;
   opacity: 0;
   transition: all 0.5s ease;
-  float: left;
 }
 .sidebar.open .logo-details .icon,
 .sidebar.open .logo-details .logo_name{
@@ -69,13 +66,11 @@
 .sidebar .nav-list{
   margin-top: 20px;
   height: 100%;
-  float: left;
 }
 .sidebar li{
   position: relative;
   margin: 8px 0;
   list-style: none;
-  float: left;
 }
 .sidebar li .tooltip{
   position: absolute;
@@ -92,7 +87,6 @@
   white-space: nowrap;
   pointer-events: none;
   transition: 0s;
-  float: left;
 }
 .sidebar li:hover .tooltip{
   opacity: 1;
