@@ -71,6 +71,7 @@
   position: relative;
   margin: 8px 0;
   list-style: none;
+  float: left;
 }
 .sidebar li .tooltip{
   position: absolute;
