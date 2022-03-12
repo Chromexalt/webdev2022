@@ -6,7 +6,6 @@
   font-family: "Poppins" , sans-serif;
 }
 .sidebar{
-  position: fixed;
   left: 0;
   top: 0;
   height: 100%;
@@ -25,6 +24,7 @@
   display: flex;
   align-items: center;
   position: relative;
+  float: left;
 }
 .sidebar .logo-details .icon{
   opacity: 0;
@@ -37,6 +37,7 @@
   font-weight: 600;
   opacity: 0;
   transition: all 0.5s ease;
+  float: left;
 }
 .sidebar.open .logo-details .icon,
 .sidebar.open .logo-details .logo_name{
@@ -68,6 +69,7 @@
 .sidebar .nav-list{
   margin-top: 20px;
   height: 100%;
+  float: left;
 }
 .sidebar li{
   position: relative;
@@ -90,6 +92,7 @@
   white-space: nowrap;
   pointer-events: none;
   transition: 0s;
+  float: left;
 }
 .sidebar li:hover .tooltip{
   opacity: 1;
