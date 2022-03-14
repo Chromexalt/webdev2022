@@ -221,7 +221,7 @@
   background: none;
 }
 .home-section{
-  position: absolute;
+  position: relative;
   min-height: 100vh;
   top: 0;
   width: calc(100%);
