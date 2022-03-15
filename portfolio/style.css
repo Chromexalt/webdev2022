@@ -4,13 +4,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins" , sans-serif;
-  color: darkcyan;
+  color: #00b1b1;
 }
 
 p {
   font-size: 30px;
   font-family: "Poppins" , sans-serif;
-  color: maroon;
+  color: #e11414;
 }
 
 .sidebar{
