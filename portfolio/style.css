@@ -6,6 +6,17 @@
   font-family: "Poppins" , sans-serif;
   color: maroon;
 }
+
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+  color: maroon;
+  font-size: x-large;
+}
+
+
 .sidebar{
   left: 0;
   top: 0;
