@@ -340,8 +340,8 @@ padding-top: 150px;
 }
 
 .vertical-menu a {
-  background-color: #89859c;
-  color: black;
+  background-color: #161616;
+  color: #ff853e;
   display: block;
   padding: 19px;
   text-decoration: none;
@@ -353,5 +353,5 @@ padding-top: 150px;
 
 .vertical-menu a.active {
   background-color: #24182c;
-  color: white;
+  color: #ffffff;
 }
