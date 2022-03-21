@@ -1,5 +1,8 @@
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {
+max-width: max-content;
+margin: auto;
+}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
