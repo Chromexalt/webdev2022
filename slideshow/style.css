@@ -9,7 +9,7 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   margin: auto;
-  width: 60%;
+  max-width: max-content;
   border: 3px solid #73AD21;
   padding: 10px;
 }
