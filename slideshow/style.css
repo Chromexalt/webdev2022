@@ -1,8 +1,8 @@
-* {box-sizing: border-box}
 body {
 max-width: max-content;
 margin: auto;
 }
+
 .mySlides {display: none}
 img {vertical-align: middle;}
 
